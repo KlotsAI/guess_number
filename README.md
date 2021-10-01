@@ -26,7 +26,7 @@
 
     ## Требования
 
-    Минимальная версия PHP: 8.0 \
+    Минимальная версия PHP: 7.4 и выше \
     Минимальная версия Composer: 2.1.6
 
     * * * 
@@ -53,4 +53,4 @@
 
 ## Ссылки
 
-Packagist: <https://packagist.org/packages/klotsai/guess_number>
+Packagist: <https://packagist.org/packages/klotsai/guess-number>
