@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '46cadea5766b394bbcfc8e94ea15495d70073ad0',
+        'reference' => '93959d5f86b4bf8e37ae8859d39e3d08dc9c81c2',
         'name' => 'klotsai/guess_number',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '46cadea5766b394bbcfc8e94ea15495d70073ad0',
+            'reference' => '93959d5f86b4bf8e37ae8859d39e3d08dc9c81c2',
             'dev_requirement' => false,
         ),
         'wp-cli/php-cli-tools' => array(
