@@ -2,15 +2,16 @@
 
 namespace klotsai\guess_number\Model;
 
+use function cli\prompt;
 use function klotsai\guess_number\View\saySalute;
 use function klotsai\guess_number\View\endGame;
 use function klotsai\guess_number\View\MenuGame;
-use function klotsai\guess_number\DataBase\insertNewGame;
-use function klotsai\guess_number\DataBase\addAttemptInDB;
-use function klotsai\guess_number\DataBase\outputListGame;
-use function klotsai\guess_number\DataBase\updateInfoGame;
-use function klotsai\guess_number\DataBase\showTopList;
-use function klotsai\guess_number\DataBase\checkGameid;
+use function klotsai\guess_number\DB\insertNewGame;
+use function klotsai\guess_number\DB\addAttemptInDB;
+use function klotsai\guess_number\DB\outputListGame;
+use function klotsai\guess_number\DB\updateInfoGame;
+use function klotsai\guess_number\DB\showTopList;
+use function klotsai\guess_number\DB\checkGameid;
 
 function setting()
 {
@@ -112,6 +113,6 @@ function commandHandler($getCommand)
             exit;
         }
 
-        $getCommand = \cli\prompt("Enter the key value");
+        $getCommand = prompt("Enter the key value: ");
     }
 }

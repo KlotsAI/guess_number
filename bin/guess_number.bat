@@ -1,3 +1,3 @@
 @ECHO OFF
-php guess-number.bat
+php guess-number.php
 PAUSE
